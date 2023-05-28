@@ -1,0 +1,75 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Stew",
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Veggie Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomata pasata",
+        "1 Green pepper",
+        "100g Mushrooms"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Greek Salad",
+      "ingredients": [
+        "1 Onion",
+        "1 Block of Feta",
+        "Olives",
+        "Tomatoes",
+        "Olive Oil"
+      ],
+      "method": "Chop and mix the ingredients and enjoy!",
+      "cookingTime": "35 minutes"
+    }, 
+    {
+        "id": "4",
+        "title": "Minty dark lentils",
+        "ingredients": [
+          "1 Onion",
+          "3 cloves garlic",
+          "1 stock cube",
+          "3tbsp olive oil",
+          "300g dark lentils",
+          "spinach", 
+          "1 heaped tbsp dried mint"
+        ],
+        "method": "1) Cook the onion with the butter and olive oil. 2) add the garlic. 3) rinse lentils well then add to pan with boiling water. 4) add mint, stock cube, black pepper. Cook for 20m. 5) add spinach and salt to taste and cook for 6-7 min.",
+        "cookingTime": "35 minutes"
+      }, 
+      {
+          "id": "5",
+          "title": "Lamb couscous",
+          "ingredients": [
+            "1 onion",
+            "600g lamb",
+            "3 tbps sunflower oil",
+            "4 carrots",
+            "2 courgettes",
+            "2 medium potatoes",
+            "1 tin chickpeas",
+            "salt to taste",
+            "1/2 tsp black pepper",
+            "heaped teaspoon cinnamon",
+            "quinoa or gluten-free couscous"
+          ],
+          "method": "1) Cut the onion into small pieces and soften it in the sunflower oil. 2) add the lamb to the pan and cover, cooking it with the onions. Meanwhile, wash and cut the vegetables. 3) Add the chickpeas to the pan with salt to taste, 1/2 tsp black pepper and a heaped teaspoon of ground cinnamon. 4) Add carrots and allow to cook for 10 minutes. 5) Add potatoes and allow to cook until the carrots and potatoes are almost cooked. 6) Add the courgettes to the pan until all ingredients are cooked. 7) Cook the quinoa or gluten-free couscous according to the packet instructions.",
+          "cookingTime": "1 hour"
+        }
+  ]
+}
