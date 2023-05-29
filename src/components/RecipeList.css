@@ -1,4 +1,6 @@
-
+/* * {
+  border: 1px solid red;
+} */
 
 .recipe-list {
     display: grid;
@@ -44,11 +46,8 @@
     color: #999;
     font-size: 0.8em;
   }
-  .recipe-list .card div, .recipe-list .card ul, .link-text {
-    color: #555;
-    font-size: 0.8em;
-    margin: 0 0 10px 0;
-    line-height: 1.5em;
+  .recipe-list .card div {
+    margin: 0;
   }
 
   .recipe-list h4, .recipe-list ul, .recipe-list p {
@@ -70,7 +69,21 @@
     border-radius: 4px;
   }
 
+  .recipe-list .card .button {
+    font-size: 0.8em;
+  }
+
   .recipe-list .card .button:hover {
     background: #555;
     color: #e2e2e2;
+  }
+
+  .recipe-list label, .recipe-list input, .link-text {
+    display: inline;
+    max-width: 50px;
+    text-align: left;
+    color: #555;
+    font-size: 1em;
+    margin: 0;
+    /* line-height: 1.1em; */
   }

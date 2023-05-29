@@ -14,7 +14,8 @@ export default function RecipeList({recipes}) {
             </div>
             <p>Ready in {recipe.cookingTime}</p>
             <h4>Ingredients</h4>
-            <ul>{recipe.ingredients.map(ingredient=>(<li key={ingredient}>{ingredient}</li>))}</ul>
+            {/* <ul>{recipe.ingredients.map(ingredient=>(<li key={ingredient}>{ingredient}</li>))}</ul> */}
+            <form>{recipe.ingredients.map(ingredient=>(<div className="recipe-ingredients-div" key={ingredient}><input type="checkbox"/><label>{ingredient}</label></div>))}</form>
             <h4>Method</h4>
             <Link className="link-text" to={`/recipes/${recipe.id}`}>See method...</Link>
             {/* <div>{recipe.method.substring(0,80)}...</div> */}

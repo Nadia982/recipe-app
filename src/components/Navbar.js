@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
+//styles
 import './Navbar.css'
+
+//components
+import SearchBar from './SearchBar';
 
 const Navbar = () => {
   return (
@@ -9,7 +13,8 @@ const Navbar = () => {
             <Link to='/' className='brand'>
             <h1>Halal gluten-free recipes</h1>
             </Link>
-            <Link to="/create">Add recipe</Link>
+            <SearchBar/>
+            <Link to="/create">Suggest a recipe</Link>
         
 
         </nav>

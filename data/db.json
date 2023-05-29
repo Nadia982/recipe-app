@@ -6,10 +6,17 @@
       "ingredients": [
         "1 carrot",
         "1 leek",
-        "200g tofu",
+        "200g lentils",
         "300ml veg stock"
       ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "method": [
+        "Pre-heat the oven to 200C/3C/gas 5.",
+        "Place the carrot, leek and lentils in a large bowl. Add the stock and mix well.",
+        "Add the rest of the ingredients and mix well.",
+        "Place the mixture in a large bowl and cover with a lid.",
+        "Place the lid on the oven and cook for 40 minutes.",
+        "Serve with a slaw of your choice."
+      ],
       "cookingTime": "45 minutes"
     },
     {
@@ -21,7 +28,11 @@
         "1 green pepper",
         "100g mushrooms"
       ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "method": [
+        "Pre-heat the oven to 200C/3C/gas 5.",
+        "Add the pasata, green pepper and mushrooms to the base.", 
+        "Place the lid on the oven and cook for 30 minutes.",
+        "Serve with a slaw of your choice."],
       "cookingTime": "35 minutes"
     },
     {
@@ -34,7 +45,7 @@
         "Tomatoes",
         "Olive oil"
       ],
-      "method": "Chop and mix the ingredients and enjoy!",
+      "method": ["Chop and mix the ingredients and enjoy!"],
       "cookingTime": "35 minutes"
     }, 
     {
@@ -49,7 +60,12 @@
           "spinach", 
           "1 heaped tbsp dried mint"
         ],
-        "method": "1) Cook the onion with the butter and olive oil. 2) add the garlic. 3) rinse lentils well then add to pan with boiling water. 4) add mint, stock cube, black pepper. Cook for 20m. 5) add spinach and salt to taste and cook for 6-7 min.",
+        "method": ["Cook the onion with the butter and olive oil.",
+        "Add the garlic.", 
+        "Rinse lentils well then add to pan with boiling water.",
+        "Add mint, stock cube, black pepper.", 
+        "Cook for 20 minutes.", 
+        "Add spinach and salt to taste and cook for 6-7 min."],
         "cookingTime": "35 minutes"
       }, 
       {
@@ -68,7 +84,14 @@
             "heaped teaspoon cinnamon",
             "quinoa or gluten-free couscous"
           ],
-          "method": "1) Cut the onion into small pieces and soften it in the sunflower oil. 2) add the lamb to the pan and cover, cooking it with the onions. Meanwhile, wash and cut the vegetables. 3) Add the chickpeas to the pan with salt to taste, 1/2 tsp black pepper and a heaped teaspoon of ground cinnamon. 4) Add carrots and allow to cook for 10 minutes. 5) Add potatoes and allow to cook until the carrots and potatoes are almost cooked. 6) Add the courgettes to the pan until all ingredients are cooked. 7) Cook the quinoa or gluten-free couscous according to the packet instructions.",
+          "method": ["Cut the onion into small pieces and soften it in the sunflower oil.",
+          "Add the lamb to the pan and cover, cooking it with the onions.",
+          "Meanwhile, wash and cut the vegetables.",
+          "Add the chickpeas to the pan with salt to taste, 1/2 tsp black pepper and a heaped teaspoon of ground cinnamon.", 
+          "Add carrots and allow to cook for 10 minutes.", 
+          "Add potatoes and allow to cook until the carrots and potatoes are almost cooked.",
+          "Add the courgettes to the pan until all ingredients are cooked.", 
+          "Cook the quinoa or gluten-free couscous according to the packet instructions."],
           "cookingTime": "1 hour"
         }
   ]

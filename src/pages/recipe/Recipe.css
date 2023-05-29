@@ -1,33 +1,47 @@
 .recipe {
     max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
+    margin: 10px auto;
     background: #fff;
     padding: 40px;
     box-sizing: border-box;
   }
-  .recipe ul {
-    /* display: flex; */
-    padding: 0;
-    justify-content: center;
-    margin-top: 0;
+
+  p {
+    margin-bottom: 18px;
   }
-  .recipe li {
-    list-style-type: none;
-    margin-right: 10px;
-    color: #777;
-  }
-  .recipe li::after {
+
+  /* .recipe li::after {
     content: ",";
   }
   .recipe li:last-child::after {
     content: ".";
-  }
+  } */
+
+  .recipe form {
+  margin-top: 12px;
+}
+
   .method {
     text-align: left;
-    line-height: 1.5em;
+  }
+
+  li, input[type="checkbox"] {
+    margin-bottom: 12px;
+    margin-right: 12px;
   }
 
   .recipe h2 {
     margin-top: 0;
+    margin-bottom: 15px;
   }
+
+  h4 {
+    margin: 10px 0 0 0;
+  }
+
+  .recipe label, .recipe input {
+    display: inline;
+    max-width: 50px;
+    text-align: left;
+  }
+
