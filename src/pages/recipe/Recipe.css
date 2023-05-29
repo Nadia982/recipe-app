@@ -45,3 +45,10 @@
     text-align: left;
   }
 
+.recipe ol {
+  padding: 0 24px;
+}
+
+.recipe li {
+  padding-left: 8px;
+}
