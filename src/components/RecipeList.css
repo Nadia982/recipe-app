@@ -86,3 +86,16 @@
     font-size: 1em;
     margin: 0;
   }
+
+  @media (max-width: 960px) {
+    .recipe-list {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+  @media (max-width: 650px) {
+    .recipe-list {
+      display: flex;
+      flex-direction: column;
+  }
+}
