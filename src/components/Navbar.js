@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { useTheme } from '../hooks/useTheme';
 
 //styles
 import './Navbar.css'
@@ -6,9 +7,12 @@ import './Navbar.css'
 //components
 import SearchBar from './SearchBar';
 
-const Navbar = () => {
+
+export default function Navbar() {
+  const {color} = useTheme();
+
   return (
-    <div className="navbar">
+    <div className="navbar" style={{background: color}}>
         <nav>
             <Link to='/' className='brand'>
             <h1>Halal gluten-free recipes</h1>
@@ -22,4 +26,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar

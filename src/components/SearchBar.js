@@ -20,7 +20,7 @@ export default function SearchBar() {
         id="search"
         onChange={(e) => setTerm(e.target.value)}
         required />
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleSubmit}>Go</button>
         </div>
         </form>
     </div>
