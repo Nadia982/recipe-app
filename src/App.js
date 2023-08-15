@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom/cjs/react-router-dom.min';
 //page components
 import Navbar from './components/Navbar'
