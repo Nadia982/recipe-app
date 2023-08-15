@@ -87,6 +87,14 @@
     margin: 0;
   }
 
+  .recipe-list .card.dark {
+    background: #555;
+  }
+
+  .recipe-list .card.dark p, .recipe-list .card.dark h3, .recipe-list .card.dark div {
+    color: #e4e4e4;
+  }
+
   @media (max-width: 960px) {
     .recipe-list {
       grid-template-columns: 1fr 1fr;

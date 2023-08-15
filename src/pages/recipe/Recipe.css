@@ -52,3 +52,9 @@
 .recipe li {
   padding-left: 8px;
 }
+
+/* dark mode */
+.recipe.dark {
+  background: #555;
+  color: #e4e4e4;
+}
