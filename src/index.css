@@ -33,3 +33,7 @@ input, textarea {
   text-align: center;
   margin: 40px auto;
 }
+
+.App.dark .loading, .App.dark .error {
+  color: #e4e4e4;
+}
