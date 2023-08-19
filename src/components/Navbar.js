@@ -14,7 +14,7 @@ export default function Navbar() {
     <div className="navbar" style={{ background: color }}>
       <nav>
         <Link to="/" className="brand">
-          <h1>Halal gluten-free recipes</h1>
+          <h1>Gluten-free recipes</h1>
         </Link>
         <SearchBar />
         <Link to="/create">Suggest a recipe</Link>
