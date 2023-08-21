@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 .recipe-list {
     display: grid;
@@ -33,7 +33,7 @@
   .recipe-list .card h3 {
     color: #555;
     font-size: 1.4rem;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
     display: inline;
   }
 
@@ -78,20 +78,41 @@
     color: #e2e2e2;
   }
 
-  .recipe-list label, .recipe-list input, .link-text {
+.recipe-list input, .link-text {
     display: inline;
     max-width: 50px;
     text-align: left;
     color: #555;
     font-size: 1em;
     margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  fieldset {
+    border: none;
+  }
+  
+  fieldset > div {
+    display: flex;
+  }
+  
+  fieldset > div > * {
+    justify-content: center;
+  }
+  
+  fieldset > div > input[type=checkbox] {
+    margin: 0 1rem 0 0;
+    /* width: 1em; */
+    height: 1em;
   }
 
   .recipe-list .card.dark {
     background: #555;
   }
 
-  .recipe-list .card.dark p, .recipe-list .card.dark h3, .recipe-list .card.dark div {
+  .recipe-list .card.dark p, .recipe-list .card.dark h3, .recipe-list .card.dark div, 
+  .recipe-list .card.dark label, .recipe-list .card.dark input, .card.dark .link-text, .recipe-list .card.dark h4 {
     color: #e4e4e4;
   }
 

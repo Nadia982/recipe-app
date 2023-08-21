@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react'
-// import {useHistory} from 'react-router-dom/cjs/react-router-dom.min';
+import {useHistory} from 'react-router-dom/cjs/react-router-dom.min';
 
 //styles
 import './Create.css'
@@ -11,11 +11,13 @@ export default function Create() {
   const [newIngredient, setNewIngredient] = useState('')
   const [ingredients, setIngredients] = useState([])
   const ingredientInput = useRef(null)
-  // const history = useHistory()
+  const history = useHistory()
   
    const handleSubmit = (e) => {
     e.preventDefault()
     console.log(title, method, cookingTime, ingredients)
+    // const doc = (title, ingredients, method, cookingTime)
+    history.push('/')
    }
 
    const handleAdd = (e) => {
