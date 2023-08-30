@@ -34,7 +34,9 @@ export default function Recipe() {
       {recipe && (
         <>
       <h2 className="page-title">{recipe.title}</h2>
-      <p>Preparation time: {recipe.cookingTime}</p>
+      <p className="time"> Prep time: {recipe.prepTime} minutes</p>
+            <p className="time">Cooking time: {recipe.cookingTime} minutes</p>
+      
       <h4>Ingredients</h4>
       <form>{recipe.ingredients.map(ingredient=>(<div className="recipe-ingredients-div" key={ingredient}><input type="checkbox"/><label>{ingredient}</label></div>))}</form>
 

@@ -20,7 +20,8 @@ export default function RecipeList({ recipes }) {
                 See details...
               </Link>
             </div>
-            <p>Ready in {recipe.cookingTime}</p>
+            <p className="time">Prep time: {recipe.prepTime} minutes</p>
+            <p className="time">Cooking time: {recipe.cookingTime} minutes</p>
             <h4>Ingredients</h4>
             {/* <ul>{recipe.ingredients.map(ingredient=>(<li key={ingredient}>{ingredient}</li>))}</ul> */}
             <form>
